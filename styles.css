@@ -71,6 +71,7 @@ header {
  line-height: 65%;
  display: block;
  font-family: "Jennifer Lynne";
+ font-weight: bolder;
  font-size: 76px;
  margin-left: 165px;
 }
@@ -79,7 +80,8 @@ header {
 h2 {
   background-color: rgba(195, 214, 155, 1.0);
   font-family: "Jennifer Lynne";
-  font-size: 55px;
+  font-weight: bolder;
+  font-size: 60px;
   padding: 10px;
   margin: 0px;
 }
