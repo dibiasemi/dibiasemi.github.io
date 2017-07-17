@@ -61,7 +61,7 @@ header {
  line-height: 65%;
  display: block;
  font-family: "Jennifer Lynne";
- src: url(http://www.dafont.com/jennifer-lynne.font);
+ src: url(Jennifer Lynne.ttf) format("truetype");
  font-size: 76px;
  margin-left: 165px;
 }
@@ -70,7 +70,7 @@ header {
 h2 {
   background-color: rgba(195, 214, 155, 1.0);
   font-family: "Jennifer Lynne";
-  src: url(http://www.dafont.com/jennifer-lynne.font);
+  src: url(Jennifer Lynne.ttf) format("truetype");
   font-size: 55px;
   padding: 10px;
   margin: 0px;
@@ -91,6 +91,7 @@ h2 {
   margin: 5px;
   padding: 5px;
   border-radius: 15px;
+  font-style: italic;
 }
 
 #form a:link {
