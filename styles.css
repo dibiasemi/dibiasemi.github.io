@@ -12,7 +12,7 @@ body {
 
 @font-face {
   font-family: "Jennifer Lynne";
-  src: url(Jennifer Lynne.ttf) format("truetype");
+  src: url(Jennifer-Lynne.ttf) format("truetype");
 }
 
 /*Creating white transparant overlay behind all body text*/
