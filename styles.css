@@ -60,7 +60,7 @@ header {
 .secondhalf {
  line-height: 65%;
  display: block;
- font-family: Jennifer Lynne;
+ font-family: "Jennifer Lynne";
  src: url(http://www.dafont.com/jennifer-lynne.font);
  font-size: 76px;
  margin-left: 165px;
@@ -69,7 +69,7 @@ header {
 /* Headers*/
 h2 {
   background-color: rgba(195, 214, 155, 1.0);
-  font-family: Jennifer Lynne;
+  font-family: "Jennifer Lynne";
   src: url(http://www.dafont.com/jennifer-lynne.font);
   font-size: 55px;
   padding: 10px;
