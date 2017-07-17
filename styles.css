@@ -53,7 +53,7 @@ header {
   color: rgb(95, 210, 220);
   left:20px;
   font-family: matador;
-  src: url(http://www.dafont.com/matador.font);
+  src: url(MATADOR_.TTF) format("truetype");
   font-size: 39px;
 }
 
