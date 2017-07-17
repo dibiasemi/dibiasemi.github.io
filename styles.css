@@ -187,10 +187,12 @@ and (max-device-width : 667px)
 and (orientation : portrait) {
 
   h2 {
-  font-size: 100px }
+  font-family: georgia;
+  font-style: italic;
+  font-size: 40px }
 
   .name {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #navbar {
@@ -198,19 +200,21 @@ and (orientation : portrait) {
   }
 
   #skyline {
-    top: 85px;
+    top: 80px;
     right: 0px;
     padding: 20px;
   }
 
   .firsthalf {
     left:20px;
-    font-size: 70px;
+    font-size: 55px;
   }
 
   .secondhalf {
-   line-height: 65%;
-   font-size: 100px;
-   margin-left: 325px;
+    font-family: georgia;
+    font-style: italic;
+    line-height: 65%;
+    font-size: 55px;
+    margin-left: 200px;
   }
 }
