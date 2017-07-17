@@ -154,7 +154,8 @@ opacity: 0.5;
 .name a:hover {
   color: hotpink;
 }
-/*Updated media queries for mobile design */
+
+/*Updated media queries for smaller widths*/
 @media only screen and (max-width: 695px) {
   .introduction {
     font-size: small;
@@ -176,5 +177,40 @@ opacity: 0.5;
 
   h1 {
     font-size: medium;
+  }
+}
+
+/*Media query for iPhone 6 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+  h2 {
+  font-size: 100px }
+
+  .name {
+    font-size: 50px;
+  }
+
+  #navbar {
+    font-size: 30px;
+  }
+
+  #skyline {
+    top: 85px;
+    right: 0px;
+    padding: 20px;
+  }
+
+  .firsthalf {
+    left:20px;
+    font-size: 70px;
+  }
+
+  .secondhalf {
+   line-height: 65%;
+   font-size: 100px;
+   margin-left: 325px;
   }
 }
