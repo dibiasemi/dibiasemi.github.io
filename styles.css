@@ -1,3 +1,146 @@
+/*Wood Texture Background Image*/
 body {
-  background:
+  background-image: url(wood.jpg);
+  background-attachment:  fixed;
+  background-size: cover;
+  }
+/*Creating white transparant overlay behind all body text*/
+div.overlay {
+background: rgba(255,255,255, 0.65);
+margin: 0px 45px 0px 45px;
+padding: 0px;
+}
+
+header {
+  display: block;
+  background-color: white;
+  size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/* All navigation bar related */
+#navbar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgba(195, 214, 155, 1.0);
+}
+
+#navbar li a {
+    display: block;
+    color: black;
+    float: left;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: white;
+    background-color: rgb(95, 210, 220);
+    text-decoration: none;
+  }
+
+/* Website Header and Image*/
+#skyline {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 0px;
+  padding: 20px;
+}
+
+.firsthalf {
+  display: inline-block;
+  position: absolute;
+  left:20px;
+  font-family: matador;
+  src: url(http://www.dafont.com/matador.font);
+  font-size: 39px;
+}
+
+.secondhalf {
+ line-height: 65%;
+ display: block;
+ font-family: Jennifer Lynne;
+ src: url(http://www.dafont.com/jennifer-lynne.font);
+ font-size: 76px;
+ z-index: -1;
+ margin-left: 165px;
+}
+
+/* Headers*/
+h2 {
+  background-color: rgba(195, 214, 155, 1.0);
+  font-family: Jennifer Lynne;
+  src: url(http://www.dafont.com/jennifer-lynne.font);
+  font-size: 55px;
+  padding: 10px;
+  margin: 0px;
+}
+
+/* Introduction */
+.introduction {
+  background-color: rgba(255,255,255,0.7);
+  font-size: medium;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#form {
+  background-color: rgba(95, 210, 220, 0.5);
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#form a:link {
+  color: white;
+}
+
+#form a:visited {
+  color: orange;
+}
+
+#form a:hover {
+  color: hotpink;
+}
+
+/* SECTION STYLING */
+.content {
+  background-color: rgba(255,255,255,0.7);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.recco {
+  font-weight: bold;
+}
+
+.tacopic {
+  text-align: center;
+}
+
+.tacopic img:hover {
+opacity: 0.5;
+}
+
+.name {
+  font-family: matador;
+  src: url(http://www.dafont.com/matador.font);
+  font-size: 30px;
+  text-align: center;
+}
+
+.name a:link {
+  color: rgb(95, 210, 220);
+}
+
+.name a:visited {
+  color: orange;
+}
+
+.name a:hover {
+  color: hotpink;
 }
