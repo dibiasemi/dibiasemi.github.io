@@ -200,7 +200,7 @@ and (orientation : portrait) {
   }
 
   #skyline {
-    top: 50px;
+    top: 55px;
     right: 0px;
     padding: 20px;
   }
@@ -213,8 +213,9 @@ and (orientation : portrait) {
   .secondhalf {
     font-family: georgia;
     font-style: italic;
-    line-height: 95%;
+    line-height: 100%;
     font-size: 55px;
     margin-left: 200px;
+    margin-top: 20px;
   }
 }
