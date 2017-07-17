@@ -4,6 +4,17 @@ body {
   background-attachment:  fixed;
   background-size: cover;
   }
+
+@font-face {
+  font-family: "matador";
+  src: url(MATADOR_.TTF) format("truetype");
+  }
+
+@font-face {
+  font-family: "Jennifer Lynne";
+  src: url(Jennifer Lynne.ttf) format("truetype");
+}
+
 /*Creating white transparant overlay behind all body text*/
 div.overlay {
   background: rgba(255,255,255, 0.65);
@@ -52,8 +63,7 @@ header {
   position: absolute;
   color: rgb(95, 210, 220);
   left:20px;
-  font-family: matador;
-  src: url(MATADOR_.TTF) format("truetype");
+  font-family: "matador";
   font-size: 39px;
 }
 
@@ -61,7 +71,6 @@ header {
  line-height: 65%;
  display: block;
  font-family: "Jennifer Lynne";
- src: url(Jennifer Lynne.ttf) format("truetype");
  font-size: 76px;
  margin-left: 165px;
 }
@@ -70,7 +79,6 @@ header {
 h2 {
   background-color: rgba(195, 214, 155, 1.0);
   font-family: "Jennifer Lynne";
-  src: url(Jennifer Lynne.ttf) format("truetype");
   font-size: 55px;
   padding: 10px;
   margin: 0px;
